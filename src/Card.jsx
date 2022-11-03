@@ -4,15 +4,17 @@ import Footer from './Components/Footer';
 import Info from './Components/Info';
 import Interests from './Components/Interests';
 
-function App () {
+function Card () {
 	return (
-		<div>
-			<Info />
-			<About />
-			<Interests />
-			<Footer />
+		<div className='card'>
+			<div className='test'>
+				<Info />
+				<About />
+				<Interests />
+				<Footer />
+			</div>
 		</div>
 	);
 }
 
-export default App;
+export default Card;

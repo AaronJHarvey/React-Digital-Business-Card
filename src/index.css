@@ -1,5 +1,27 @@
+.card {
+	border: 1px solid black;
+	position: absolute;
+	width: 550px;
+	height: 868px;
+	left: 65px;
+	top: 53px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+}
+
+.test {
+	border: 1px solid blue;
+	width: 50%;
+	height: 75%;
+	color: white;
+}
+
 .info {
-	border: 1px solid green;
-	text-align: center;
-	padding: 0;
+	border: 1px solid white;
+	background: blue;
+}
+.info > img {
+	border: 1px solid red;
 }
