@@ -16,12 +16,16 @@
 	width: 50%;
 	height: 75%;
 	color: white;
+	padding-top: 1%;
 }
 
 .info {
 	border: 1px solid white;
-	background: blue;
+	padding-top: 10%;
+	padding-left: 5%;
 }
-.info > img {
+.info > #photo {
 	border: 1px solid red;
+	height: 250px;
+	padding-top: ;
 }
