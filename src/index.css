@@ -29,11 +29,11 @@
 }
 
 .info > #photo {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 100%;
-	height: ;
 	display: block;
 	margin: auto;
+	margin-bottom: 20px;
 }
 
 /* .test {
