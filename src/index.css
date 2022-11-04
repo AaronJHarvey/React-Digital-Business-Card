@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
 .card {
 	border: 1px solid black;
 	position: absolute;
@@ -11,7 +16,27 @@
 	background: black;
 }
 
-.test {
+.card-inner {
+	border: 1px solid white;
+	height: 75%;
+	width: 60%;
+	color: white;
+}
+
+.info {
+	text-align: center;
+	justify-content: center;
+}
+
+.info > #photo {
+	border: 1px solid red;
+	width: 100%;
+	height: ;
+	display: block;
+	margin: auto;
+}
+
+/* .test {
 	border: 1px solid blue;
 	width: 50%;
 	height: 75%;
@@ -28,4 +53,4 @@
 	border: 1px solid red;
 	height: 250px;
 	padding-top: ;
-}
+} */

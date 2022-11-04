@@ -7,7 +7,7 @@ import Interests from './Components/Interests';
 function Card () {
 	return (
 		<div className='card'>
-			<div className='test'>
+			<div className='card-inner'>
 				<Info />
 				<About />
 				<Interests />
