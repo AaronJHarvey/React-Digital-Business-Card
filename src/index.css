@@ -20,7 +20,7 @@
 	/* border: 1px solid white; */
 	border-radius: 10px;
 	height: 75%;
-	width: 60%;
+	width: 55%;
 	color: white;
 	background-color: #1a1b21;
 }
@@ -33,9 +33,10 @@
 
 .info > #photo {
 	/* border: 1px solid red; */
-	width: 100%;
+	width: 80%;
 	display: block;
-	margin: auto;
-	margin-bottom: 20px;
-	border-radius: 10px 10px 0px 0px;
+	/* margin: auto;
+	margin-bottom: 20px; */
+	margin: 20px auto;
+	border-radius: 10px;
 }
