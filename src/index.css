@@ -4,7 +4,6 @@
 }
 
 .card {
-	border: 1px solid black;
 	position: absolute;
 	width: 550px;
 	height: 868px;
@@ -17,10 +16,9 @@
 }
 
 .card-inner {
-	/* border: 1px solid white; */
 	border-radius: 10px;
 	height: 75%;
-	width: 55%;
+	width: 60%;
 	color: white;
 	background-color: #1a1b21;
 }
@@ -32,11 +30,8 @@
 }
 
 .info > #photo {
-	/* border: 1px solid red; */
 	width: 80%;
 	display: block;
-	/* margin: auto;
-	margin-bottom: 20px; */
 	margin: 20px auto;
 	border-radius: 10px;
 }
