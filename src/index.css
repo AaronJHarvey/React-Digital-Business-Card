@@ -39,3 +39,14 @@
 	margin: 20px auto;
 	border-radius: 10px;
 }
+
+#info-text {
+	background-color: #1a1b21;
+	line-height: 35px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#info-text > h3 {
+	line-height: 22px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
