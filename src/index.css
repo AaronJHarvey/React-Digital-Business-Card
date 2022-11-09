@@ -29,3 +29,7 @@
 	width: 100%;
 	margin: auto;
 }
+
+#info-photo-container {
+	background-image: linear-gradient(#414f6a, #33343b, #1a1b21);
+}
