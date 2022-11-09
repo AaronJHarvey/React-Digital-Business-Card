@@ -17,8 +17,8 @@
 
 .card-inner {
 	border-radius: 10px;
-	height: 75%;
-	width: 60%;
+	height: 90%;
+	width: 77%;
 	color: white;
 	background-color: #1a1b21;
 }
@@ -26,12 +26,6 @@
 .info {
 	text-align: center;
 	justify-content: center;
-	line-height: 30px;
-}
-
-.info > #photo {
-	width: 80%;
-	display: block;
-	margin: 20px auto;
-	border-radius: 10px;
+	width: 100%;
+	margin: auto;
 }
