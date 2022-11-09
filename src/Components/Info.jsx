@@ -8,8 +8,8 @@ export default function Info () {
 			</div>
 			<div id='info-text'>
 				<h1>Aaron Harvey</h1>
-				<h5>Fullstack Developer</h5>
-				<p>website goes here </p>
+				<h3>Fullstack Developer</h3>
+				<h3>website goes here </h3>
 			</div>
 		</div>
 	);
