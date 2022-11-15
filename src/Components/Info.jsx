@@ -19,7 +19,7 @@ export default function Info () {
 			</div>
 			<div className='button-container'>
 				<button onClick={sendEmail} id='email-button'>
-					<MdAlternateEmail /> Email
+					<MdAlternateEmail id='email' /> Email
 				</button>
 				<button>
 					<SiLinkedin /> LinkedIn
