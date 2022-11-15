@@ -19,6 +19,7 @@ export default function Info () {
 				<button onClick={sendEmail} id='email-button'>
 					Email
 				</button>
+				<button>LinkedIn</button>
 			</div>
 		</div>
 	);
