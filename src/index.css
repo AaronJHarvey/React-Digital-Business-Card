@@ -63,4 +63,12 @@
 
 /* Info Section Buttons */
 
+.button-container {
+	border: 1px solid red;
+	display: inline-flex;
+	width: 90%;
+	height: 34px;
+	justify-content: space-evenly;
+}
+
 /* About section Design  */
