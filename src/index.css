@@ -3,6 +3,8 @@
 	margin: 0px;
 }
 
+/*  Card design */
+
 .card {
 	position: absolute;
 	width: 550px;
@@ -23,6 +25,8 @@
 	background-color: #1a1b21;
 }
 
+/* Info section design */
+
 .info {
 	text-align: center;
 	justify-content: center;
@@ -36,7 +40,7 @@
 
 #info-photo-container > #photo {
 	width: 60%;
-	margin: 20px auto 5px;
+	margin: 20px auto 0px;
 	border-radius: 10px;
 }
 
@@ -56,3 +60,5 @@
 #info-text > :nth-child(2) {
 	color: #f3bf99;
 }
+
+/* About section Design  */

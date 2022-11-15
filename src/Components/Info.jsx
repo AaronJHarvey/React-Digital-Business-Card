@@ -1,6 +1,10 @@
 import React from 'react';
 
 export default function Info () {
+	const sendEmail = () => {
+		window.location.href = 'mailto:harvey.AaronJ@gmail.com';
+	};
+
 	return (
 		<div className='info'>
 			<div id='info-photo-container'>
@@ -10,6 +14,11 @@ export default function Info () {
 				<h1>Aaron Harvey</h1>
 				<h3>Fullstack Developer</h3>
 				<h3>website goes here </h3>
+			</div>
+			<div className='button-container'>
+				<button onClick={sendEmail} id='email-button'>
+					Email
+				</button>
 			</div>
 		</div>
 	);
