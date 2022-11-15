@@ -20,7 +20,7 @@
 .card-inner {
 	border-radius: 10px;
 	height: 90%;
-	width: 77%;
+	width: 57%;
 	color: white;
 	background-color: #1a1b21;
 }
@@ -60,5 +60,7 @@
 #info-text > :nth-child(2) {
 	color: #f3bf99;
 }
+
+/* Info Section Buttons */
 
 /* About section Design  */
