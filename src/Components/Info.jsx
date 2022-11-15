@@ -1,4 +1,6 @@
 import React from 'react';
+import { SiLinkedin } from 'react-icons/si';
+import { MdAlternateEmail } from 'react-icons/md';
 
 export default function Info () {
 	const sendEmail = () => {
@@ -17,9 +19,11 @@ export default function Info () {
 			</div>
 			<div className='button-container'>
 				<button onClick={sendEmail} id='email-button'>
-					Email
+					<MdAlternateEmail /> Email
 				</button>
-				<button>LinkedIn</button>
+				<button>
+					<SiLinkedin /> LinkedIn
+				</button>
 			</div>
 		</div>
 	);
