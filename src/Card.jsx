@@ -9,8 +9,10 @@ function Card () {
 		<div className='card'>
 			<div className='card-inner'>
 				<Info />
-				<About />
-				<Interests />
+				<div className='about-interests-cont'>
+					<About />
+					<Interests />
+				</div>
 				<Footer />
 			</div>
 		</div>
