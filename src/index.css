@@ -20,7 +20,7 @@
 .card-inner {
 	border-radius: 10px;
 	height: 90%;
-	width: 57%;
+	width: 65%;
 	color: white;
 	background-color: #1a1b21;
 }
@@ -36,6 +36,7 @@
 
 #info-photo-container {
 	background-image: linear-gradient(#414f6a, #33343b, #1a1b21);
+	border-radius: 10px;
 }
 
 #info-photo-container > #photo {
