@@ -3,8 +3,8 @@ import { SiLinkedin } from 'react-icons/si';
 import { MdAlternateEmail } from 'react-icons/md';
 
 export default function Info () {
-	const sendEmail = () => {
-		window.location.href = 'mailto:harvey.AaronJ@gmail.com';
+	const handleClick = (destination) => {
+		window.open(destination, '_blank');
 	};
 
 	return (
@@ -18,10 +18,11 @@ export default function Info () {
 				<h3>website goes here </h3>
 			</div>
 			<div className='button-container'>
-				<button onClick={sendEmail} id='email-button'>
+				<button onClick={() => handleClick('mailto:harvey.AaronJ@gmail.com')} id='email-button'>
 					<MdAlternateEmail id='email' /> Email
 				</button>
-				<button>
+
+				<button onClick={() => handleClick('https://www.linkedin.com/in/aaronjharvey1/')}>
 					<SiLinkedin /> LinkedIn
 				</button>
 			</div>
