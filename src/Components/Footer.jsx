@@ -4,10 +4,6 @@ import { IoLogoVenmo } from 'react-icons/io5';
 import { handleClick } from '../Utils';
 
 export default function Footer () {
-	// const handleClick = (destination) => {
-	// 	window.open(destination, '_blank');
-	// };
-
 	return (
 		<div className='footer-container'>
 			<button onClick={() => handleClick('https://github.com/AaronJHarvey')} id='github-button'>
