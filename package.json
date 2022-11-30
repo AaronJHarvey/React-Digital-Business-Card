@@ -3,6 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"homepage": ".",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
@@ -12,8 +13,7 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^4.6.0",
-		"react-mailto": "^0.4.0",
-		"react-router": "^6.4.3"
+		"react-mailto": "^0.4.0"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.17",
