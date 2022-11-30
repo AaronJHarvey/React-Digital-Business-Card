@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Interests () {
 	return (
-		<div id=''>
+		<div id='interests-container'>
 			<h1>Interests</h1>
 			<p>
 				Comicbook nerd. Bookworm. Movie Buff. Traveler. Social/Economic Change Advocate. Eternal student.
