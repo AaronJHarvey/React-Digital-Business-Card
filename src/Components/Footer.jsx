@@ -5,13 +5,16 @@ import { handleClick } from '../Utils';
 
 export default function Footer () {
 	return (
-		<div className='footer-container'>
-			<button onClick={() => handleClick('https://github.com/AaronJHarvey')} id='github-button'>
+		<div>
+			{/* <button onClick={() => handleClick('https://github.com/AaronJHarvey')} id='github-button'>
 				<FaGithubSquare />
 			</button>
 			<button onClick={() => handleClick('https://account.venmo.com/u/AaronJHarvey')} id='venmo-button'>
 				<IoLogoVenmo />
-			</button>
+			</button> */}
+
+			<FaGithubSquare onClick={() => handleClick('https://github.com/AaronJHarvey')} id='github-button' />
+			<IoLogoVenmo onClick={() => handleClick('https://account.venmo.com/u/AaronJHarvey')} id='venmo-button' />
 		</div>
 	);
 }

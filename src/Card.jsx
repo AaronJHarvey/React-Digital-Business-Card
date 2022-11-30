@@ -13,7 +13,9 @@ function Card () {
 					<About />
 					<Interests />
 				</div>
-				<Footer />
+				<div className='footer-container'>
+					<Footer />
+				</div>
 			</div>
 		</div>
 	);
