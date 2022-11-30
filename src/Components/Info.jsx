@@ -1,12 +1,9 @@
 import React from 'react';
 import { SiLinkedin } from 'react-icons/si';
 import { MdAlternateEmail } from 'react-icons/md';
+import { handleClick } from '../Utils';
 
 export default function Info () {
-	const handleClick = (destination) => {
-		window.open(destination, '_blank');
-	};
-
 	return (
 		<div className='info'>
 			<div id='info-photo-container'>
