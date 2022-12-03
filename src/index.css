@@ -3,14 +3,17 @@
 	margin: 0px;
 }
 
+body {
+}
 /*  Card design */
 
 .card {
-	position: absolute;
 	width: 550px;
 	height: 868px;
-	left: 65px;
-	top: 53px;
+	/* left: 65px;
+	top: 53px; */
+	margin: auto;
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
